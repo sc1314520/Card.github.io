@@ -75,9 +75,6 @@ body{
 .play{
     width:375px;
     margin: 0 auto;
-    background-image: url(../images/pexels-pixabay-265242.jpg);
-    background-size: cover;
-    background-position: center;
 }
 .play-text>h1{
     font-size: 24px;
@@ -94,18 +91,31 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 .play-img img{
     width: 40%;
 }
 .percent{
-    color: white;
     width:100%;
     text-align: center;
     line-height: 1.5;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.wish{
+    width:375px;
+    margin: 0 auto;
+}
+.wish-img img{
+    width:100%;
+}
+.wish>h1{
+    text-align: center;
+    font-size: 24px;
+    line-height: 2;
+    top:10px;
+    left:70px;
+    color: black;
 }
 .yours{
     width:375px;
