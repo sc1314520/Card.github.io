@@ -97,6 +97,20 @@ body{
 .play-img img{
     width: 40%;
 }
+.line{
+    width:80%;
+    height: 12px;
+    margin-top: 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.line-c{
+    width:0%;
+    height: 100%;
+    background: red;
+    border-radius: 5px;
+    margin-left: -1px;
+}
 .percent{
     width:100%;
     text-align: center;
