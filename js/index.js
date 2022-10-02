@@ -7,10 +7,12 @@ window.onload=function(){
     doll.onclick=function(){
         clearInterval(timer);
         timer = setInterval(function(){
-            i--;
-            j-=1.5;
-            doll.style.width=(40+j)+"%";
-            per.innerHTML=i;
+            if(i>0){
+                i--;
+                j-=1.5;
+                doll.style.width=(40+j)+"%";
+                per.innerHTML=i;
+            }
         },300);
         if(i<100){
             i++;
@@ -19,7 +21,7 @@ window.onload=function(){
             doll.style.width=(40+j)+"%";
             if(i==100){
                 per.innerHTML=i;
-                alert("恭喜你獲得了娃娃！！");
+                alert("寶貝生日快樂！！");
                 doll.style.width="40%";
                 clearInterval(timer);
             }
