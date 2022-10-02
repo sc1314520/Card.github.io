@@ -21,7 +21,7 @@ window.onload=function(){
             doll.style.width=(40+j)+"%";
             if(i==100){
                 per.innerHTML=i;
-                alert("寶貝生日快樂！！");
+                alert("寶貝生日快樂！！希望妳會喜歡這份生日禮物！！");
                 doll.style.width="40%";
                 clearInterval(timer);
             }
