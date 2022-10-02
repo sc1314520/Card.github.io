@@ -97,6 +97,9 @@ body{
 .play-img img{
     width: 40%;
 }
+.play-img img:hover{
+    cursor: pointer;
+}
 .line{
     width:80%;
     height: 12px;
