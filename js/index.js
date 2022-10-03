@@ -5,6 +5,9 @@ window.onload=function(){
     var text0 =document.querySelector(".play-text>h1");
     var text =document.querySelector(".play-text>p");
     var linec=document.querySelector(".line-c");
+    var cake0=document.querySelector(".cake>h1");
+    var cake1=document.querySelector(".cake>p");
+    var btn=document.querySelector(".btn");
     var i=0;
     var j=0;
     var timer;
@@ -55,5 +58,12 @@ window.onload=function(){
                 clearInterval(timer);
             }
         }
+    };
+    
+    btn.onclick=function(){
+        cake0.innerHTML="成功許下願望";
+        cake1.innerHTML="二十歲的這一年有妳真好！！"
+        btn.innerHTML="許願完成";
+        btn.setAttribute("disabled",true);
     };
 };
