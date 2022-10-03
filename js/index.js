@@ -7,6 +7,7 @@ window.onload=function(){
     var linec=document.querySelector(".line-c");
     var cake0=document.querySelector(".cake>h1");
     var cake1=document.querySelector(".cake>p");
+    var txtx=document.querySelector(".txtx>p");
     var btn=document.querySelector(".btn");
     var i=0;
     var j=0;
@@ -62,7 +63,8 @@ window.onload=function(){
     
     btn.onclick=function(){
         cake0.innerHTML="成功許下願望";
-        cake1.innerHTML="二十歲的這一年有妳真好！！"
+        cake1.innerHTML="二十歲的這一年有妳真好！！";
+        txtx.innerHTML="(๑>◡<๑)"; 
         btn.innerHTML="許願完成";
         btn.setAttribute("disabled",true);
     };

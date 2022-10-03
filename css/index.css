@@ -141,6 +141,7 @@ body{
     margin: 0 auto;
     background-image: url(../images/ck.jpg);
     color: brown;
+    position: relative;
 }
 .cake>h1{
     text-align: center;
@@ -155,11 +156,32 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .ck img{
-    margin-top: 10px;
+    margin-top:70px;
     margin-bottom: 10px;
     width: 75%;
+}
+.ck-tx{
+    width:200px;
+    position: absolute;
+    top:-35px;
+    right:35px;
+}
+.tx{ 
+    width: 100%;
+}
+.txtx{
+    position: absolute;
+    font-size: 8px;
+    top:148px;
+    left:31px;
+    text-align: center;
+}
+.txtx>p{
+    display: block;
+    width: 100px;
 }
 .check{
     width: 100%;
