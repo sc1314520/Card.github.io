@@ -66,4 +66,4 @@ window.onload=function(){
         btn.innerHTML="許願完成";
         btn.setAttribute("disabled",true);
     };
-};
+}
